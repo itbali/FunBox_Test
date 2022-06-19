@@ -14,7 +14,8 @@
 
 .card {
     cursor: pointer;
-    background: linear-gradient(135deg, var(--b) 0 39px, transparent 0) no-repeat top left, url('/src/assets/images/cat.png') no-repeat 50% 120%, #FFFFFF;
+    background: linear-gradient(135deg, var(--b) 0 39px, transparent 0) no-repeat top left,
+                url('/src/assets/images/cat.png') no-repeat 50% 120%, #FFFFFF;
     background-origin: border-box;
     border: 4px solid  var(--b);
     border-radius: 12px;
@@ -123,4 +124,19 @@
     }
 .selected{
     --b:#D91667
+    }
+
+.disabled{
+    cursor: not-allowed;
+    --b:#B3B3B3;
+    box-shadow: inset 1000px 100px 360px 1px #B3B3B37F;
+    }
+.disabled,
+.disabled .cardPreTitle,
+.disabled .cardTitle,
+.disabled .cardBonus{
+    color: #B3B3B3}
+
+.disabled ~ .underCard{
+    color: #FFFF66;
     }

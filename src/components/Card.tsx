@@ -18,17 +18,19 @@ export const Card = () => {
 
   let productCardsJsx = productCards.map(el => {
 
-    let finalClass: string = s.cardContainer;
+    let finalCardContainerClass: string = s.cardContainer;
     if (el.touched) {
-      finalClass = `${s.cardContainer} ${s.touched}`;
+      finalCardContainerClass = `${s.cardContainer} ${s.touched}`;
     }
     if (el.isSelected) {
-      finalClass = `${s.cardContainer} ${s.selected}`;
+      finalCardContainerClass = `${s.cardContainer} ${s.selected}`;
     }
 
+    let finalCardClass: string = el.isAvailable?s.card:`${s.card} ${s.disabled}`;
+
     return (
-      <div className={finalClass} key={el.id} onMouseLeave={() => touchedHandler(el.id)}>
-        <div className={s.card} onClick={() => selectHandler(el.id)}>
+      <div className={finalCardContainerClass} key={el.id} onMouseLeave={() => el.isAvailable&&touchedHandler(el.id)}>
+        <div className={finalCardClass} onClick={() => el.isAvailable&&selectHandler(el.id)}>
           <span className={s.cardPreTitle}>Сказочное заморское яство</span>
           <span className={s.cardTitle}>Нямушка</span>
           <span className={s.cardTaste}>с {el.taste}</span>
@@ -38,10 +40,13 @@ export const Card = () => {
           </span>
           <div className={s.cardWeight}><b>{el.weight}</b>КГ</div>
         </div>
-        <span className={s.underCard}>Чего сидишь? Порадуй котэ, {' '}
-          <span onClick={() => selectHandler(el.id)}>
-            <u>купи</u><b>.</b></span>
-        </span>
+        {el.isAvailable
+          ? <span className={s.underCard}>Чего сидишь? Порадуй котэ, {' '}
+            <span onClick={() => el.isAvailable&&selectHandler(el.id)}>
+              <u>купи</u><b>.</b></span>
+            </span>
+          : <span className={s.underCard}>Печалька, с {el.taste} закончился.</span>}
+
       </div>
     )
   })

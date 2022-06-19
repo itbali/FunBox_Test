@@ -37,7 +37,7 @@ let initialState: InitialStateType = {
       bonusText: 'мыши в подарок',
       bonusNumber: 2,
       touched: false,
-      isAvailable: true,
+      isAvailable: false,
       isSelected: false
     },
     {
