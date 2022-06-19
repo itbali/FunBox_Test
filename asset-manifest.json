@@ -1,19 +1,17 @@
 {
   "files": {
     "main.css": "/mindBoxTest/static/css/main.c4df2dda.css",
-    "main.js": "/mindBoxTest/static/js/main.0e648e4b.js",
-    "static/js/787.5d855b3d.chunk.js": "/mindBoxTest/static/js/787.5d855b3d.chunk.js",
+    "main.js": "/mindBoxTest/static/js/main.c6136741.js",
     "static/media/cat.png": "/mindBoxTest/static/media/cat.b5a4e49a115c4291cd3b.png",
     "static/media/Exo20-Thin.woff": "/mindBoxTest/static/media/Exo20-Thin.6658f4fa1f053bc53cd8.woff",
     "static/media/Exo20-Thin.woff2": "/mindBoxTest/static/media/Exo20-Thin.8205c204616a347a8401.woff2",
     "static/media/Pattern.png": "/mindBoxTest/static/media/Pattern.f482acd8dc97df184edb.png",
     "index.html": "/mindBoxTest/index.html",
     "main.c4df2dda.css.map": "/mindBoxTest/static/css/main.c4df2dda.css.map",
-    "main.0e648e4b.js.map": "/mindBoxTest/static/js/main.0e648e4b.js.map",
-    "787.5d855b3d.chunk.js.map": "/mindBoxTest/static/js/787.5d855b3d.chunk.js.map"
+    "main.c6136741.js.map": "/mindBoxTest/static/js/main.c6136741.js.map"
   },
   "entrypoints": [
     "static/css/main.c4df2dda.css",
-    "static/js/main.0e648e4b.js"
+    "static/js/main.c6136741.js"
   ]
 }
