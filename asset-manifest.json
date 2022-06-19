@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/mindBoxTest/static/css/main.fa5d643e.css",
+    "main.js": "/mindBoxTest/static/js/main.8b781550.js",
+    "static/js/787.5d855b3d.chunk.js": "/mindBoxTest/static/js/787.5d855b3d.chunk.js",
+    "static/media/cat.png": "/mindBoxTest/static/media/cat.b5a4e49a115c4291cd3b.png",
+    "static/media/Exo20-Thin.woff": "/mindBoxTest/static/media/Exo20-Thin.6658f4fa1f053bc53cd8.woff",
+    "static/media/Exo20-Thin.woff2": "/mindBoxTest/static/media/Exo20-Thin.8205c204616a347a8401.woff2",
+    "static/media/Pattern.png": "/mindBoxTest/static/media/Pattern.f482acd8dc97df184edb.png",
+    "index.html": "/mindBoxTest/index.html",
+    "main.fa5d643e.css.map": "/mindBoxTest/static/css/main.fa5d643e.css.map",
+    "main.8b781550.js.map": "/mindBoxTest/static/js/main.8b781550.js.map",
+    "787.5d855b3d.chunk.js.map": "/mindBoxTest/static/js/787.5d855b3d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa5d643e.css",
+    "static/js/main.8b781550.js"
+  ]
+}
