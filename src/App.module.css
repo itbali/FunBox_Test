@@ -1,0 +1,19 @@
+.app{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 5e-05) 49.88%, rgba(0, 0, 0, 0.5) 100%), url("assets/images/Pattern.png"), repeat ;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+.header{
+  font-family: 'Exo2.0',serif, monospace;
+  text-align: center;
+  font-size: 36px;
+  line-height: 44px;
+  padding-top: 36px;
+  margin: 0;
+  color: #FFFFFF;
+  text-shadow: 0 1px 1px #000000;
+  }
